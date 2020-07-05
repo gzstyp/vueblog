@@ -1,25 +1,4 @@
-# blog
 
-> 博客系统
-
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-``` bash
-# 使用总结
 获取本地的数据需要注意的有：数据要放在static目录下"
 
 本示例使用的是本地json数据，获取本地的数据需要注意的是,数据一定要放在static目录下
@@ -39,8 +18,3 @@ npm run build --report
 import VueResource from 'vue-resource';这个是从当前项目的package.json添加依赖后的dependencies获取
 
 自定义指令也可以分为局部和全局的,全局在main.js编写;局部在当前的vue文件里的,示例在src\\components\\showBlogs.vue的directive111
-
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-

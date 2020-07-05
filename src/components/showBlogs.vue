@@ -24,10 +24,11 @@ export default {
       }
   },
   created(){
-      this.$http.get('https://jsonplaceholder.typicode.com/posts').then(function(data){
+      this.$http.get('https://jsonplaceholder.typicode.com/posts').then((data)=>{
           this.blogs = data.body.slice(0,10);
-      }).catch(function(err){});
-      /*this.$http.get('./../static/localData.json').then(function(data){
+      }).catch((err)=>{});
+      /*使用本地的json数据
+      this.$http.get('./../static/localData.json').then(function(data){
           this.blogs = data.body.slice(0,10);
       }).catch(function(err){});*/
   },
