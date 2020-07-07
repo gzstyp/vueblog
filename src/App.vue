@@ -2,7 +2,7 @@
   <div id="app">
     <!-- <show-blogs>默认显示的东东(启动页默认显示的页面)</show-blogs> -->
     <NarHeader></NarHeader>
-    <router-view></router-view>
+    <router-view></router-view><!-- 路由注入的地方 -->
   </div>
 </template>
 
@@ -22,7 +22,7 @@ export default {
 <style>
 </style>
 
-<!-- 
+<!--
 1.写一个js路由集合文件,本项目是routers.js文件,在src\main.js文件引入 import UrlRouters from './routers';并在main.js创建路由且通过
   const myrouter = new VueRouter({
     routes : UrlRouters,

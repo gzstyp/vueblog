@@ -68,7 +68,7 @@ new Vue({
   el : '#app',
   components : { App },
   template : '<App/>',
-  router : myrouter //添加到容器里
+  router : myrouter //添加到容器里,也可以写成 router,它等价于 router: router
 });
 
 /*
