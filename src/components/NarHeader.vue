@@ -1,7 +1,8 @@
 <template>
     <nav>
         <ul>
-            <!--它要结合src\routers.js一起使用,那js文件会和下面的列表一一对应的路由,在App.vue那引用import本文件-->
+            <!--它要结合src\routers.js一起使用,那js文件会和下面的列表一一对应的路由,在App.vue那引用import本文件,应该叫硬编码???-->
+            <!--[有两个路由占位符地方,一个是本文件,另一个是在文件src\App.vue]-->
             <li><router-link to="/" exact>博客列表</router-link></li>
             <li><router-link to="/add" exact>撰写博客</router-link></li>
         </ul>

@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <!-- <show-blogs>默认显示的东东(启动页默认显示的页面)</show-blogs> -->
     <NarHeader></NarHeader>
+    <!--默认显示的东东(启动页默认显示的页面),显示路由导航的位置,路由占位符[有两个路由占位符地方,一个是本文件,另一个是在文件src\components\NarHeader.vue]-->
     <router-view></router-view><!-- 路由注入的地方 -->
   </div>
 </template>
