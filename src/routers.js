@@ -8,6 +8,6 @@ import SingleBlog from './components/SingleBlog';
 export default[
     {path : "/",component : showBlogs},
     {path : "/add",component : AddBlogs},
-    {path : "/blog/:id",component : SingleBlog},//单个路由参数,接收参数是 this.$route.params.id,
-    {path : "/info/:id/:title",component : SingleBlog}//多个路由参数,接收参数是this.$route.params.id,this.$route.params.title,
+    {path : "/blog/:id",component : SingleBlog},//:是bind绑定的简写!!!单个路由参数,接收参数是 this.$route.params.id,
+    {path : "/info/:id/:title",component : SingleBlog}//:是bind绑定的简写!!!多个路由参数,接收参数是this.$route.params.id,this.$route.params.title,
 ]
